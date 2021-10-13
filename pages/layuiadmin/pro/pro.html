@@ -1,0 +1,63 @@
+﻿
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>layuiAdmin pro - 通用型管理系统纯静态 UI 模板（单页版）</title>
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link rel="stylesheet" href="//res.layui.why-studio.ml/layui/rc/css/layui.css?t=1.7.1.css" media="all">
+  <script>
+  /^http(s*):\/\//.test(location.href) || alert('请先部署到 localhost 下再访问');
+  </script>
+</head>
+<body>
+
+
+
+<style>
+A.applink:hover {border: 2px dotted #DCE6F4;padding:2px;background-color:#ffff00;color:green;text-decoration:none}
+A.applink       {border: 2px dotted #DCE6F4;padding:2px;color:#2F5BFF;background:transparent;text-decoration:none}
+A.info          {color:#2F5BFF;background:transparent;text-decoration:none}
+A.info:hover    {color:green;background:transparent;text-decoration:underline}
+</style>
+<div style='BORDER: 1px solid #DCE6F4; MARGIN-TOP: 20px; MARGIN-BOTTOM: 20px; MARGIN-LEFT: 5px; MARGIN-RIGHT: 5px; PADDING: 5px; BACKGROUND-COLOR: #eef8ff;line-height:180%; COLOR: #000000; font-family: Arial; font-size: 8pt; width=100%; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr="#FFFFFFFF", EndColorStr="#F2F5FAFF");'>
+This page was saved by <a class="applink" href="https://why-studio.tk"><b>WHY-Studio</b></a> .<br>
+<b>Address:</b> <a class="info" href="http://www.layui.com/layuiadmin/pro/">http://www.layui.com/layuiadmin/pro/</a><br>
+<b>Title:</b> layuiAdmin pro - 通用型管理系统纯静态 UI 模板（单页版） &nbsp;&bull;&nbsp; <b>Size:</b> 1498 &nbsp;&bull;&nbsp; <b>Last Modified:</b> Wed, 09 Jun 2021 07:25:27 GMT<br></div>
+
+
+
+  <div id="LAY_app"></div>
+  <script src="//res.layui.why-studio.ml/layui/rc/layui.js?t=1.7.1-1"></script>
+  <script>
+  layui.config({
+    base: './dist/' //指定 layuiAdmin 项目路径
+    ,version: '1.7.1'
+  }).use('index', function(){
+    var layer = layui.layer, admin = layui.admin;
+    layer.ready(function(){
+      admin.popup({
+        content: '单页面专业版默认未开启“多标签”功能，实际运用时，你可以自定义是否开启'
+        ,area: '300px'
+        ,shade: false
+      });
+    });
+  });
+  </script>
+  
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?d214947968792b839fd669a4decaaffc";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+</body>
+</html>
+
+
