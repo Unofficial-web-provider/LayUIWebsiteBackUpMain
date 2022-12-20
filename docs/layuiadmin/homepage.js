@@ -73,7 +73,7 @@ layui.config({
       layer.photos({
         photos: {
           "data": [{
-            "src": "////cdn.layui.why-studio.ml/upload/2021_4/168_1617643238223_53889.png",
+            "src": "////cdn.layui.ml/upload/2021_4/168_1617643238223_53889.png",
           }]
         }
         ,anim: 0
